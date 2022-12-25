@@ -19,6 +19,9 @@
 		CEA98730295847BB0097841B /* LocationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA9872F295847BB0097841B /* LocationsVC.swift */; };
 		CEA98732295847C70097841B /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98731295847C70097841B /* SettingsVC.swift */; };
 		CEA98734295847DB0097841B /* EpisodesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA98733295847DB0097841B /* EpisodesVC.swift */; };
+		CEDB6E572958557D00AD6A66 /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6E562958557D00AD6A66 /* Service.swift */; };
+		CEDB6E592958558700AD6A66 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6E582958558700AD6A66 /* Request.swift */; };
+		CEDB6E5B2958564B00AD6A66 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDB6E5A2958564B00AD6A66 /* Endpoint.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		CEA9872F295847BB0097841B /* LocationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsVC.swift; sourceTree = "<group>"; };
 		CEA98731295847C70097841B /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
 		CEA98733295847DB0097841B /* EpisodesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodesVC.swift; sourceTree = "<group>"; };
+		CEDB6E562958557D00AD6A66 /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		CEDB6E582958558700AD6A66 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		CEDB6E5A2958564B00AD6A66 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +121,9 @@
 		CEA98721295846770097841B /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
+				CEDB6E582958558700AD6A66 /* Request.swift */,
+				CEDB6E5A2958564B00AD6A66 /* Endpoint.swift */,
+				CEDB6E562958557D00AD6A66 /* Service.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -220,13 +229,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE743FD3295844C800B91E73 /* TabBarVC.swift in Sources */,
+				CEDB6E592958558700AD6A66 /* Request.swift in Sources */,
 				CE743FCF295844C800B91E73 /* AppDelegate.swift in Sources */,
+				CEDB6E5B2958564B00AD6A66 /* Endpoint.swift in Sources */,
 				CEA98729295847130097841B /* Episodes.swift in Sources */,
 				CEA987272958470D0097841B /* Characters.swift in Sources */,
 				CE743FD1295844C800B91E73 /* SceneDelegate.swift in Sources */,
 				CEA98730295847BB0097841B /* LocationsVC.swift in Sources */,
 				CEA9872E295847B10097841B /* CharactersVC.swift in Sources */,
 				CEA98725295847000097841B /* Location.swift in Sources */,
+				CEDB6E572958557D00AD6A66 /* Service.swift in Sources */,
 				CEA98734295847DB0097841B /* EpisodesVC.swift in Sources */,
 				CEA98732295847C70097841B /* SettingsVC.swift in Sources */,
 			);
